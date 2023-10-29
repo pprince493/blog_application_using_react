@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.Card {
+  color: black !important;
+  cursor: pointer;
+  text-align: left;
+}
+
+.Card:hover {
+  background-color: rgba(215, 215, 250, 0.5);
+}
+
+.extra-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+Form {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.form-control{
+  margin: 5px 0 20px 0;
+}
+
+.pull-right {
+  display: 'flex';
+  justify-content: 'flex-end';
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.posts {
+  background-color: rgba(237, 214, 255, 0.4);
+  text-align: left;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.posts:hover {
+  background-color: rgb(237, 214, 255, 0.7);
+}
